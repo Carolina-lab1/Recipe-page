@@ -1,0 +1,205 @@
+body {
+    background-color:hsl(30, 54%, 90%);
+    max-width: 1440px;
+    height: 0 auto;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+    margin: 0; /* Remove as margens padrão do corpo */
+    margin: 50px 0 50px 0;
+    padding: 20px;
+
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 650px;
+    height: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border: 10px;
+    border-radius: 20px;
+}
+
+.container .table .photo img{
+    border: 10px;
+    border-radius: 20px;
+    width: 450px;
+
+}
+
+.container .table .photo p {
+    font-family:"Young Serif", serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align:justify;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.container .table .paragrafo p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: justify;
+    border: 8px;
+
+}
+
+.container .table .paragrafo2 {
+    background-color:hsl(330, 100%, 98%);
+    padding: 5px;
+    border: 10px;
+    border-radius: 18px;
+
+}
+
+.container .table .paragrafo2 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align:start;
+    padding-left: 18px;
+    border: 8px;
+    color: hsl(332, 51%, 32%);
+}
+
+.container .table .paragrafo2 .list1 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: justify;
+    border: 8px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.container .table .paragrafo2 .list1 li {
+    padding-bottom: 7px;
+    padding-left: 10px;
+
+}
+
+.container .table .paragrafo3 p {
+    font-family:"Young Serif", serif;
+    font-weight: 400;
+    font-size: 21px;
+    text-align:justify;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    color:hsl(14, 45%, 36%);
+}
+
+.container .table .paragrafo3 .list2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: justify;
+    border: 8px;
+    padding: 10px;
+    color: hsl(30, 10%, 34%);
+    margin: 0px;
+    margin-left: 10px;
+
+}
+.container .table .paragrafo3 .list2 ul {
+    padding: 15px;
+
+}
+.container .table .paragrafo3 .list2 li {
+    padding-bottom: 10px;
+
+}
+
+.container .table #vertical-line {
+    width: 450px;
+    border: 1px solid hsl(30, 18%, 87%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container .table .paragrafo4 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: justify;
+    border: 8px;
+    padding: 0px;
+
+}
+
+.container .table .paragrafo4 p {
+    font-family:"Young Serif", serif;
+    font-weight: 400;
+    font-size: 21px;
+    text-align:justify;
+    margin: 0px;
+    margin-left: 10px;
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 10px;
+}
+
+.container .table .paragrafo4 .list3 {
+    padding-left: 10px;
+    color: hsl(30, 10%, 34%);
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+.container .table .paragrafo4 .list3 li {
+    padding-bottom: 10px;
+}
+
+
+.container .table .paragrafo5 p.titulo1 {
+    font-family:"Young Serif", serif;
+    font-weight: 400;
+    font-size: 21px;
+    text-align:justify;
+    margin: 0px;
+    margin-left: 10px;
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 10px;
+}
+
+.container .table .paragrafo5 p.subtitulo {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: justify;
+    border: 8px;
+    color: hsl(30, 10%, 34%);
+    margin: 0px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.container .table .paragrafo5 .second {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: justify;
+    border: 8px;
+    padding-left: 18px;
+    color: hsl(​30, 10%, 34%);
+}
+
+.container .table .paragrafo5 .second td {
+    width: 200px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 8px;
+
+}
+
+.container .table .paragrafo5 .second .a .one {
+    color: hsl(​30, 10%, 34%);
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-color:hsl(30, 54%, 90%);
+        width: 50%;
+    }
+}
